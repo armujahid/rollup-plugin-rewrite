@@ -1,11 +1,11 @@
 {
   "name": "rollup-plugin-rewrite",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "rewrite code using renderChunk",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/armujahid/rollup-plugin-rewrite/"
+    "type": "git",
+    "url": "https://github.com/armujahid/rollup-plugin-rewrite/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
