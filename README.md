@@ -29,11 +29,10 @@ export default {
 following code will replace `importShim(./bla)` to `importShim(./publicPath/bla)` 
 
 ```js
-modify({
+rewrite({
   find: /importShim\(([^)]*)\)/mg,
   replace: (match) => `importShim("./publicPath/${match[1].substr(3)})`
 })
 ```
 
-I use this snippet to update paths of
-dynamic imports during build time
+I use this snippet to update paths of dynamic imports during build time
