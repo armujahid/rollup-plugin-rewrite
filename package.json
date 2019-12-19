@@ -11,9 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "rollup",
+    "rollup-plugin",
     "rewrite",
-    "regex"
+    "find",
+    "replace",
+    "regex",
+    "regexp",
+    "transform"
   ],
   "author": "Abdul Rauf <abdulraufmujahid@gmail.com>",
   "license": "MIT",
